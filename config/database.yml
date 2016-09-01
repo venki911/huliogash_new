@@ -1,0 +1,23 @@
+
+
+default: &default
+  adapter: postgresql
+  encoding: utf8
+  pool: 5
+  host: localhost
+  username: postgres
+  password: postgres
+
+development:
+  <<: *default
+  database: spree_demo_development
+
+production:
+  <<: *default
+  database: spree_demo_development
+
+
+
+
+
+
