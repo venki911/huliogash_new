@@ -50,7 +50,22 @@ gem 'spree', '~> 3.1.0'
 gem 'spree_auth_devise', '~> 3.1.0'
 gem 'spree_gateway', '~> 3.1.0'
 
+### Additional gems added on September 09 2016
+# Product Zoom
+gem "spree_product_zoom", :git => "git://github.com/spree/spree_product_zoom.git"
 
+# Wishlist
+gem 'spree_wishlist', github: 'spree-contrib/spree_wishlist', branch: 'master'
+gem 'spree_email_to_friend', github: 'spree-contrib/spree_email_to_friend', branch: 'master'
+
+# Slider
+gem 'spree_slider', github: 'spree-contrib/spree_slider', branch: '3-1-stable'
+
+# Social
+gem 'spree_social_products', github: 'spree-contrib/spree_social_products', branch: 'master'
+
+# Comments
+gem "spree_comments", github: 'spree-contrib/spree_comments'
 
 
 
